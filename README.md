@@ -115,3 +115,4 @@ Output here:
 
 When I get the `receiver too slow` message, every event that happens on this folder is not sent
 to the channel. I can remove/create `foo` several times, it won't be watched again.
+Folders no longer get watched, regardless of `receiver too slow` happens.
