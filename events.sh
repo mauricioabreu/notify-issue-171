@@ -9,10 +9,10 @@ go build -tags debug -o notify .
 
 sleep 1
 
-for i in {1..10}; do
+for i in {1..100}; do
     touch example/foo/a.txt
     touch example/bar/b.txt
-    rm -rf example/foo example/bar
-    sleep 1
+    rm -rf example
+    sleep 0.5
     mkdir -p example/foo example/bar
 done
